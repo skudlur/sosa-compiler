@@ -28,6 +28,22 @@ If you want a highly optimized release build, use instead:
 
 You can use CMake and CMake Tools extensions of vscode to facilitate development. Let CMake Tools configure IntelliSense.
 
+## How to setup the Conda environment?
+
+Install conda on your machines
+
+    sudo apt install conda
+
+Configure the environment with the yaml given
+
+    conda env create -f conda.yml
+
+Once the environement is created, restart the shell and activate the environment
+
+    $SHELL
+    conda activate sosa-compiler
+
+
 ## How to run?
 
 Precompile a Keras model
